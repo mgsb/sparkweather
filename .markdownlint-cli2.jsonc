@@ -1,0 +1,19 @@
+{
+    "noProgress": true,
+    "showFound": false,
+    "config": {
+        // See also .editorconfig
+        "MD007": {
+            "indent": 4
+        },
+        // No tabs; https://www.jwz.org/doc/tabs-vs-spaces.html
+        "MD010": true,
+        // Newlines are semantic end of statement; presuppose an editor with
+        // sane line wrapping behaviour.
+        "MD013": false,
+        // Duplicate headers are OK in a different context.
+        "MD024": {
+            "allow_different_nesting": true
+        }
+    }
+}

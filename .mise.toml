@@ -1,0 +1,10 @@
+[tools]
+prek = "latest"
+
+[tasks.tangle]
+description = "Tangle the org file"
+run = "./tangle.sh sparkweather.org"
+
+[tasks.lint]
+description = "Run all pre-commit hooks on all files"
+run = "prek run --all-files"

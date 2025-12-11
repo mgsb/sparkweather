@@ -1,7 +1,25 @@
+2025-12-11  Robin Stephenson  <robin@aglet.net>
+
+        * README.md: Add command to install from MELPA, remove reference
+        to Elpaca.
+
+	* CONTRIBUTING.md: Add some guidance for contributors; ancillary
+        files came along with this, including:
+
+        * .mise.toml: Install prek for pre-commit hook management, and add
+        tasks to do tangling and linting.
+
+        * .pre-commit-config.yaml: Check trailing whitespace, markdown etc.
+
+        * .markdownlint-cli2.yaml: Define markdown conventions.
+
+        * .editorconfig: Provide convention hints to text editors.
+
 2025-12-01  Robin Stephenson  <robin.stephenson@ticketmaster.com>
 
 	* README.md: Add license and MELPA badges.
 
-	* sparkweather.el (sparkweather--display-day): Remove bold formatting for date.
+	* sparkweather.el (sparkweather--display-day): Remove bold
+        formatting for date.
 
 	* ChangeLog: Add change log.
